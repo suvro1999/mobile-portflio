@@ -1,0 +1,438 @@
+.mediaViewInfo {
+	--web-view-name: main page;
+	--web-view-id: main_page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: main_page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#main_page {
+	position: absolute;
+	width: 375px;
+	height: 1423px;
+	background-color: rgba(228,247,248,1);
+	overflow: hidden;
+	--web-view-name: main page;
+	--web-view-id: main_page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#logoss {
+	position: absolute;
+	width: 64px;
+	height: 59px;
+	left: 13px;
+	top: 0px;
+	overflow: visible;
+}
+#align-justified {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 321px;
+	top: 12px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: main_page___1.html;
+	cursor: pointer;
+}
+#Ellipse_1 {
+	opacity: 0.53;
+	fill: rgba(225,121,121,1);
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 118px;
+	left: 63px;
+	top: 101px;
+}
+#Ellipse_3 {
+	opacity: 0.53;
+	fill: rgba(225,121,121,1);
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 63px;
+	left: 248px;
+	top: 78px;
+}
+#Ellipse_4 {
+	opacity: 0.53;
+	fill: rgba(225,121,121,1);
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 45px;
+	left: 194px;
+	top: 138px;
+}
+#Ellipse_2 {
+	opacity: 0.53;
+	fill: rgba(225,121,121,1);
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	height: 29px;
+	left: 233px;
+	top: 190px;
+}
+#A_Beautiful__Design_Experience {
+	left: 21px;
+	top: 156px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#mockup_jpge {
+	position: absolute;
+	width: 333px;
+	height: 240px;
+	left: 21px;
+	top: 278px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: rgba(228,203,149,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	height: 152px;
+	left: 156px;
+	top: 324px;
+}
+#Meet_ {
+	left: 170px;
+	top: 378px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Me {
+	left: 176px;
+	top: 401px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#download-triangular-shape-back {
+	position: absolute;
+	width: 385px;
+	height: 544px;
+	left: 0px;
+	top: 612px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(109,57,255,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	height: 138px;
+	left: 187px;
+	top: 642px;
+}
+#Rectangle_4 {
+	fill: rgba(57,255,70,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	height: 138px;
+	left: 188px;
+	top: 985px;
+}
+#Rectangle_3 {
+	fill: rgba(62,152,255,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	height: 138px;
+	left: 0px;
+	top: 819px;
+}
+#UX__UI_DESIGN {
+	left: 214px;
+	top: 667px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#GRAPHIC_DESIGN {
+	left: 21px;
+	top: 851px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#WEB_DESIGN {
+	left: 230px;
+	top: 1013px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#I_have_3_years_experience_in_U {
+	left: 200px;
+	top: 709px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#I_have_3_years_experience_in_g {
+	left: 21px;
+	top: 888px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#I_have_3_years_experience_in_w {
+	left: 200px;
+	top: 1054px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Skills {
+	left: 155px;
+	top: 563px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#DO_YOU_WANT_TO_HIRE_ME_ {
+	left: 85px;
+	top: 1183px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Mail_me_at_Ssuvro1999gmailcom {
+	left: 97px;
+	top: 1206px;
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#footer_bg01 {
+	position: absolute;
+	width: 375px;
+	height: 119px;
+	left: 0px;
+	top: 1304px;
+	overflow: visible;
+}
+#All_copyright_deserve_by_suvro {
+	left: 123px;
+	top: 1402px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#CONTACT {
+	left: 21px;
+	top: 1336px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#ID01700-000_000 {
+	left: 21px;
+	top: 1358px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+#Sylhet_Sador {
+	left: 312px;
+	top: 1358px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+#Sylhet_3100 {
+	left: 312px;
+	top: 1372px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+#ssuvro1999gamilcom {
+	left: 21px;
+	top: 1372px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+#LOCATION {
+	left: 308px;
+	top: 1336px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Cambria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
